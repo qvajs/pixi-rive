@@ -1,13 +1,13 @@
-# packageName
+# @qva/pixi-rive
 
 <!-- automd:badges color=yellow -->
 
-[![npm version](https://flat.badgen.net/npm/v/packageName?color=yellow)](https://npmjs.com/package/packageName)
-[![npm downloads](https://flat.badgen.net/npm/dm/packageName?color=yellow)](https://npmjs.com/package/packageName)
+[![npm version](https://img.shields.io/npm/v/@qva/pixi-rive?color=yellow)](https://npmjs.com/package/@qva/pixi-rive)
+[![npm downloads](https://img.shields.io/npm/dm/@qva/pixi-rive?color=yellow)](https://npmjs.com/package/@qva/pixi-rive)
 
 <!-- /automd -->
 
-This is my package description.
+PixiJS plugin for rendering rive animations.
 
 ## Usage
 
@@ -17,43 +17,43 @@ Install package:
 
 ```sh
 # ✨ Auto-detect
-npx nypm install packageName
+npx nypm install @qva/pixi-rive
 
 # npm
-npm install packageName
+npm install @qva/pixi-rive
 
 # yarn
-yarn add packageName
+yarn add @qva/pixi-rive
 
 # pnpm
-pnpm install packageName
+pnpm install @qva/pixi-rive
 
 # bun
-bun install packageName
+bun install @qva/pixi-rive
 ```
 
 <!-- /automd -->
 
 Import:
 
-<!-- automd:jsimport cjs cdn name="pkg" -->
+<!-- automd:jsimport cjs cdn name="@qva/pixi-rive" imports="RiveSprite" -->
 
 **ESM** (Node.js, Bun)
 
 ```js
-import {} from "pkg";
+import { RiveSprite } from "@qva/pixi-rive";
 ```
 
 **CommonJS** (Legacy Node.js)
 
 ```js
-const {} = require("pkg");
+const { RiveSprite } = require("@qva/pixi-rive");
 ```
 
 **CDN** (Deno, Bun and Browsers)
 
 ```js
-import {} from "https://esm.sh/pkg";
+import { RiveSprite } from "https://esm.sh/@qva/pixi-rive";
 ```
 
 <!-- /automd -->
@@ -76,11 +76,11 @@ import {} from "https://esm.sh/pkg";
 
 <!-- automd:contributors license=MIT -->
 
-Published under the [MIT](https://github.com/unjs/packageName/blob/main/LICENSE) license.
-Made by [community](https://github.com/unjs/packageName/graphs/contributors) 💛
+Published under the [MIT](https://github.com/qvajs/pixi-rive/blob/main/LICENSE) license.
+Made by [community](https://github.com/qvajs/pixi-rive/graphs/contributors) 💛
 <br><br>
-<a href="https://github.com/unjs/packageName/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=unjs/packageName" />
+<a href="https://github.com/qvajs/pixi-rive/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=qvajs/pixi-rive" />
 </a>
 
 <!-- /automd -->
